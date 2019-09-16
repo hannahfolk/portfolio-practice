@@ -10,37 +10,42 @@
 
 <body>
     <div class="wrapper">
+        <div id="full_header"></div>
+        
         <div id="header">
-            <h1>
+            <h1 id="name_header">
                 Hannah Folk
-                            
-                <nav>
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                <nav>
             </h1>
+                            
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
         <div class="content">
-            <h2>Contact</h2>
+            <h1>Contact</h1>
+
+            <hr>
 
             <form>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" placeholder="John Smith">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email">
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
                 <label for="message">Message</label>
-                <input type="text" id="message" name="message">
+                <br>
+                <textarea id="message" name="message"></textarea>
             </form>
 
             <input type="submit" value="Submit">
         </div>
 
         <footer class="footer">
-                <p id="copyright">&copy Hannah Folk 2019</p>
+                <p id="copyright">&copy; Hannah Folk 2019</p>
         </footer>
     </div>
 </body>
